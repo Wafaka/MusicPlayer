@@ -16,6 +16,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".LatestActivity"
+            android:label="@string/title_activity_latest"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".AlbumActivity" />
+        <activity android:name=".NowPlaying">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
